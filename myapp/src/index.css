@@ -23,7 +23,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  max-width: 500px;
+  max-width: 98vw;
   border: 1px solid mediumblue;
   margin: auto; 
 }
@@ -37,7 +37,7 @@ header{
   align-items: center;
   justify-content: space-between;
 }
-
+   
 main{
   width: 100%;
   display: flex;
