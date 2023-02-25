@@ -43,7 +43,7 @@ main{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   overflow-y: auto;
 }
@@ -105,11 +105,81 @@ ul{
   height: 36px;
   min-height: 36px;
   font-size: 1rem;
-  background-color: steelblue;
+  color: steelblue;
+  padding: 0.25rem;
 }
 
 .items svg:hover{
-  background-color: red;
+  color: red;
   outline: none;
 }
 
+.addForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem 0 0.5rem;
+  padding: 0.25rem ;
+  border-bottom: 1px solid #0000ff;
+}
+
+.addForm label{
+  position: absolute;
+  left: 999999px;
+}
+
+.addForm input[type = 'text'] {
+  display: flex;
+  flex-grow: 1;
+  min-height: 48px;
+  max-width: calc(100vw - 50px);
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.addForm button{
+  display: flex;
+  align-items: center;
+  width: 48px;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #0000ff;
+  border-radius: 0.25rem;
+}
+
+.addForm button:hover{
+  background-color: limegreen;
+  color: #fff;
+}
+
+.search{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0.5rem;
+  padding: 0.25rem ;
+  border-bottom: 1px solid #0000ff;
+}
+
+.search label{
+  position: absolute;
+  left: 999999px;
+}
+
+.search input[type = 'text'] {
+  display: flex;
+  flex-grow: 1;
+  min-height: 48px;
+  max-width : 100%;
+  font-size: 1rem;
+  padding: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}

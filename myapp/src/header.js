@@ -5,10 +5,10 @@ import React from 'react'
 //   color : '#fff'
 // };
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <header>
-        <h1>Groceries List</h1>
+        <h1>{title}</h1>
     </header>
   )
 }
