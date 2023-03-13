@@ -1,22 +1,24 @@
 {
-    "items": [
-        
-        {
-            "id": 1,
-            "checked":false,
-            "item" : "Almonds, in blue bag"
-        },
-        
-        {
-            "id": 2,
-            "checked":false,
-            "item" : "Pizza"
-        },
-        
-        {
-            "id": 3,
-            "checked":false,
-            "item" : "Bread"
-        }
-    ]
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Almonds, in blue bag"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "burger"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "Burger"
+    },
+    {
+      "id": 5,
+      "checked": false,
+      "item": "cookies"
+    }
+  ]
 }
